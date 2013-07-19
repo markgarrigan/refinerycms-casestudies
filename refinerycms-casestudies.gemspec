@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.name              = 'refinerycms-casestudies'
   s.authors           = ['Mark Garrigan']
   s.email             = ['mark@markgarrigan.com']
-  s.homepage          = ''
+  s.homepage          = 'http://github.com/markgarrigan/refinerycms-casestudies'
   s.version           = Casestudies::VERSION
   s.description       = 'Ruby on Rails Casestudies extension for Refinery CMS'
   s.date              = '2013-07-18'
