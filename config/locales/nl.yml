@@ -1,0 +1,33 @@
+nl:
+  refinery:
+    plugins:
+      casestudies:
+        title: Casestudies
+    casestudies:
+      admin:
+        casestudies:
+          actions:
+            create_new: Maak een nieuwe Casestudy
+            reorder: Wijzig de volgorde van de Casestudies
+            reorder_done: Klaar met het wijzingen van de volgorde van de Casestudies
+          records:
+            title: Casestudies
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Casestudies. Druk op 'Maak een nieuwe Casestudy' om de eerste aan te maken.
+          casestudy:
+            view_live_html: Bekijk deze casestudy op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze casestudy
+            delete: Verwijder deze casestudy voor eeuwig
+      casestudies:
+        show:
+          other: Andere Casestudies
+  activerecord:
+    attributes:
+      'refinery/casestudies/casestudy':
+        title: Title
+        description: Description
+        body: Body
+        date: Date
+        picture: Picture
+        samples: Samples
+        display: Display

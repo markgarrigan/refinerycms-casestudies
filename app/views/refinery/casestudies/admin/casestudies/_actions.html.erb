@@ -1,0 +1,25 @@
+<ul>
+  <% if ::Refinery::Casestudies::Admin::CasestudiesController.searchable? %>
+    <li>
+      <%= render '/refinery/admin/search', :url => refinery.casestudies_admin_casestudies_path %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to t('.create_new'), refinery.new_casestudies_admin_casestudy_path,
+                 :class => "add_icon" %>
+  </li>
+<% if !searching? && ::Refinery::Casestudies::Admin::CasestudiesController.sortable? && ::Refinery::Casestudies::Casestudy.any? %>
+  <li>
+    <%= link_to t('.reorder', :what => "Casestudies"),
+                 refinery.casestudies_admin_casestudies_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "Casestudies"),
+                 refinery.casestudies_admin_casestudies_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+<% end %>
+</ul>

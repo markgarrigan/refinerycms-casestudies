@@ -1,0 +1,11 @@
+<% content_for :body do %>
+  <ul id="casestudies">
+    <% @casestudies.each do |casestudy| %>
+      <li>
+        <%= link_to casestudy.title, refinery.casestudies_casestudy_path(casestudy) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>

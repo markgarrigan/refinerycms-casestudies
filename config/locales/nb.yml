@@ -1,0 +1,33 @@
+nb:
+  refinery:
+    plugins:
+      casestudies:
+        title: Casestudies
+    casestudies:
+      admin:
+        casestudies:
+          actions:
+            create_new: Lag en ny Casestudy
+            reorder: Endre rekkefølgen på Casestudies
+            reorder_done: Ferdig å endre rekkefølgen Casestudies
+          records:
+            title: Casestudies
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Casestudies enda. Klikk på "Lag en ny Casestudy" for å legge til din første casestudy.
+          casestudy:
+            view_live_html: Vis hvordan denne casestudy ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne casestudy
+            delete: Fjern denne casestudy permanent
+      casestudies:
+        show:
+          other: Andre Casestudies
+  activerecord:
+    attributes:
+      'refinery/casestudies/casestudy':
+        title: Title
+        description: Description
+        body: Body
+        date: Date
+        picture: Picture
+        samples: Samples
+        display: Display

@@ -1,0 +1,34 @@
+es:
+  refinery:
+    plugins:
+      casestudies:
+        title: Casestudies
+#        article: masculino/femenino
+    casestudies:
+      admin:
+        casestudies:
+          actions:
+            create_new: Crear nuevo casestudy
+            reorder: Reordenar casestudies
+            reorder_done: Reordenación de casestudies completada
+          records:
+            title: Casestudies
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay casestudies todavía. Pulsa en "Crear nuevo Casestudy" para crear tu primer casestudy.
+          casestudy:
+            view_live_html: Ver este casestudy como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este casestudy
+            delete: Borrar este casestudy para siempre
+      casestudies:
+        show:
+          other: Otros casestudies
+  activerecord:
+    attributes:
+      'refinery/casestudies/casestudy':
+        title: Title
+        description: Description
+        body: Body
+        date: Date
+        picture: Picture
+        samples: Samples
+        display: Display

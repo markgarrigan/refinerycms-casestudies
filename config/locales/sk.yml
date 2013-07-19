@@ -1,0 +1,33 @@
+sk:
+  refinery:
+    plugins:
+      casestudies:
+        title: Casestudies
+    casestudies:
+      admin:
+        casestudies:
+          actions:
+            create_new: Pridať Casestudy
+            reorder: Preusporiadať Casestudies
+            reorder_done: Koniec radenia Casestudies
+          records:
+            title: Casestudies
+            sorry_no_results: Ľutujeme, ale neboli nájdené žiadne výsledky.
+            no_items_yet: Nie sú vytvorené žiadne Casestudies. Kliknite na "Pridať Casestudy" pre pridanie prvého casestudy.
+          casestudy:
+            view_live_html: Zobraziť náhľad casestudy<br/><em>(otvorí sa v novom okne)</em>
+            edit: Upraviť casestudy
+            delete: Zmazať casestudy
+      casestudies:
+        show:
+          other: Daľšie Casestudies
+  activerecord:
+    attributes:
+      'refinery/casestudies/casestudy':
+        title: Title
+        description: Description
+        body: Body
+        date: Date
+        picture: Picture
+        samples: Samples
+        display: Display
