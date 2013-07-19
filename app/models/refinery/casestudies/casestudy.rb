@@ -1,7 +1,11 @@
 module Refinery
   module Casestudies
     class Casestudy < Refinery::Core::BaseModel
-      self.table_name = 'refinery_casestudies'
+	  extend FriendlyId
+	  
+	  friendly_id :title, :use => [:slugged]
+
+      self.table_name = 'refinery_casestudies'	
 
       attr_accessible :title, :description, :body, :date, :picture_id, :samples, :display, :position
 

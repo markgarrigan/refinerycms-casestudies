@@ -5,7 +5,7 @@
 Simply use this by adding the following to your `Gemfile`:
 
 ```ruby
-gem 'refinerycms-casestudies', '~> 1.0.0'
+gem 'refinerycms-casestudies', '~> 1.1.0'
 ```
 
 Now, run ``bundle install``
