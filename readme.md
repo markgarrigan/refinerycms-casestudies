@@ -10,7 +10,7 @@ gem 'refinerycms-casestudies', '~> 1.0.0'
 
 Now, run ``bundle install``
 
-Next, to install the search plugin run:
+Next, to install the casestudy engine run:
 
 ```ruby
 rails generate refinery:casestudies
