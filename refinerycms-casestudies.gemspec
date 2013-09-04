@@ -10,16 +10,14 @@ Gem::Specification.new do |s|
   s.homepage          = 'http://github.com/markgarrigan/refinerycms-casestudies'
   s.version           = Casestudies::VERSION
   s.description       = 'Ruby on Rails Casestudies extension for Refinery CMS'
-  s.date              = '2013-07-18'
+  s.date              = Time.now
   s.summary           = 'Casestudies extension for Refinery CMS'
   s.require_paths     = %w(lib)
   s.files             = Dir["{app,config,db,lib}/**/*"] + ["readme.md"]
   s.license           = 'MIT'
 
   # Runtime dependencies
-  s.add_dependency             'refinerycms-core',    '~> 2.0.10'
-  s.add_dependency             'friendly_id',         '~> 4.0.9'
+  s.add_dependency    'refinerycms-core',     '~> 2.1.0'
+  s.add_dependency    'friendly_id',          '~> 4.0.4'
 
-  # Development dependencies (usually used for testing)
-  s.add_development_dependency 'refinerycms-testing', '~> 2.0.10'
 end
